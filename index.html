@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="hsl(37 98% 53%)">
+
+  <title>Counter</title>
+
+  <link rel="icon" href="./assets/img/favicon.ico">
+  <link rel="apple-touch-icon" href="./assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="./styles.css">
+
+  <script src="./main.js" defer></script>
+</head>
+
+<body>
+  <main class="main">
+    <figure>
+      <video src="./assets/vid/train-station.mp4" controls autoplay loop muted></video>
+    </figure>
+    <form class="headcount" id="headcount" action="#">
+      <h1 class="title">People entered:</h1>
+      <h2 class="count-el" id="count-el">0</h2>
+      <div class="btns">
+        <button class="btn increment-btn" onclick="increment()">increment</button>
+        <button class="btn save-btn" onclick="save()">save</button>
+        <button type="reset" class="btn reset-btn" onclick="clean()">reset</button>
+      </div>
+      <div class="save-el">
+        <p>Previous entries:</p>
+        <p id="save-el"></p>
+      </div>
+    </form>
+  </main>
+  <footer class="footer">
+    <small class="attr">Practice by <a href="https://scrimba.com/" class="attr-lnk" target="_blank"
+        rel="noreferrer">Scrimba</a> - Coded by <a href="https://github.com/vanmendez" class="attr-lnk" target="_blank"
+        rel="noreferrer">vimp</a> 🥤</small>
+  </footer>
+</body>
+
+</html>
