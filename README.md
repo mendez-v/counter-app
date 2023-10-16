@@ -13,6 +13,10 @@ It consists of building a passenger counter app.
 
 ![Desktop](./assets/img/desktop.webp)
 
+## Link
+
+[Demo](vanmendez.github.io/counter-app/) 👀
+
 ## Recursos
 
 🎞 Video by [Sofia](https://www.pexels.com/video/metro-train-in-city-12096369/) on [Pexels](https://www.pexels.com/)
