@@ -15,7 +15,7 @@ It consists of building a passenger counter app.
 
 ## Link
 
-[Demo](https://vanmendez.github.io/counter-app/) 👀
+✨ Want to have a look?, [click here](https://mendez-v.github.io/counter-app/) 👀
 
 ## Recursos
 
